@@ -1,2 +1,3 @@
 php artisan serve
 composer require livewire/livewire
+php artisan make:livewire searchboxComponent
