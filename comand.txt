@@ -1,3 +1,4 @@
 php artisan serve
 composer require livewire/livewire
 php artisan make:livewire searchboxComponent
+php artisan make:livewire profile --inline

@@ -11,6 +11,7 @@
     <livewire searchbox-component />
     @livewire('searchbox-component')
     @livewire('searchbox-component')
+    @livewire('profile')
 @livewireScripts
 </body>
 </html>
