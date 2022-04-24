@@ -1,5 +1,6 @@
 <?php
 use App\Http\Livewire\Home;
+use App\Http\Livewire\Form;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,4 @@ Route::get('/', function () {
  Route::view('student','studentprofile');
  Route::view('admin','adminprofile');
  Route::get('/home/{name}',Home::class);
+ Route::get('/form',Form::class);
