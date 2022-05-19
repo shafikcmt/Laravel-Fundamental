@@ -3,6 +3,8 @@ use App\Http\Livewire\Contact;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Form;
 use App\Http\Livewire\Action;
+use App\Http\Livewire\Students;
+use App\Http\Livewire\Create;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +28,5 @@ Route::get('/', function () {
  Route::get('/form',Form::class);
  Route::get('/action',Action::class);
  Route::get('/contact',Contact::class);
+ Route::get('/students',Students::class);
+ Route::get('/create',Create::class);
